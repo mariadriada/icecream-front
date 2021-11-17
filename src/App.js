@@ -6,7 +6,7 @@ import IcecreamList from "./components/IcecreamList";
 import { getIcecreamFetch } from "./api/icecream";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   const [icecreams, setIcecreams] = useState([]);
