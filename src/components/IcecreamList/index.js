@@ -6,7 +6,7 @@ const IcecreamList = ({ list }) => {
   return (
     <div>
       {list.map((item, i) => (
-        <IcecreamCard key={i} item={item} />
+        <IcecreamCard key={i} item={item} i={i} />
       ))}
     </div>
   );
