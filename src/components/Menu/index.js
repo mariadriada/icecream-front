@@ -25,6 +25,11 @@ const Menu = () => {
           Eliminar helado
         </Link>
       </Nav.Item>
+      <Nav.Item>
+        <Link to="/images" className="nav-link">
+          Images
+        </Link>
+      </Nav.Item>
     </Nav>
   );
 };

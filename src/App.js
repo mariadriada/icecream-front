@@ -5,6 +5,7 @@ import { Container } from "react-bootstrap";
 import IcecreamList from "./components/IcecreamList";
 import Menu from "./components/Menu";
 import FormCreate from "./components/FormCreate";
+import Images from "./components/Images";
 
 import { getIcecreamFetch } from "./api/icecream";
 
@@ -42,6 +43,7 @@ function App() {
             element={<h1>Actualizar helado</h1>}
           />
           <Route path="/icecream/delete" element={<h1>Eliminar Helado</h1>} />
+          <Route path="/images" element={<Images />} />
         </Routes>
       </Router>
     </Container>
