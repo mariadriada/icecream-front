@@ -1,8 +1,8 @@
 import React from "react";
 
-import Upload from "./Upload";
+//import Upload from "./Upload";
 
-import Firma from "../../static/firma.png";
+//import Firma from "../../static/firma.png";
 
 const Images = () => {
   console.log("IMAGE_URL", process.env.REACT_APP_IMAGE_URL);
